@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    overflow-y: visible;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+.container-fluid {
+    width: 80%;
+    overflow: hidden;
+}
+
+/* Start Navbar */
+
+.navbar {
+    background-color: rgba(000, 000, 000, 0.3);
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav {
+    font-size: 12px;
+}
+
+.navbar-dark .nav-item .nav-link {
+    color: white;
+}
+
+/* Start Jumbotron */
+
+.jumbotron {
+    background-image: 
+    radial-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 1)),
+    url(assets/assets/main-bg.jpg);
+    background-size: cover;
+    height: 960px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    width: 100%;
+    color: white;
+    margin: 0%;
+}
+
+.h1 {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 83px;
+    letter-spacing: 3px;
+    padding-top: 10%;
+    margin-bottom: 58px;
+}
+
+.lead {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.jumbotron .button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1A1917;
+    text-transform: uppercase;
+    padding: 1% 5%;
+    margin-top: 58px;
+}
+
+.scroll-down .bottom-scroll:hover {
+    color: rgb(189, 111, 9);
+    text-decoration: none;
+}
+
+.scroll-down{
+    margin-top: 285.22px;
+    animation: scrollDown 1s infinite;
+}
+    
+@keyframes scrollDown {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(0.5);
+    }
+
+    25% {
+        transform: scale(0.8);
+    }
+
+    10% {
+        transform: scale(1);
+    }
+}
+
+.bottom-scroll {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    color: white;
+    animation: infinite;
+}
+
+/* Start Gallery */
+
+.gallery {
+    width: 100%;
+    height: 987px;
+    background:
+    radial-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 1)),
+    url(assets/assets/the-games-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.gallery .row {
+    padding-top: 10%;
+}
+
+.gallery h3 {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.gallery h1 {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 56px;
+    margin-top: -40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.carousel-indicators .active {
+    background-color: white;
+}
+
+/* Start Features */
+
+.features {
+    width: 100%;
+    height: 960px;
+    background:
+    radial-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 1)),
+    url(assets/assets/features.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.features h3 {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-top: 40%;
+}
+
+.features h1 {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 56px;
+    margin-top: -40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* .card-header {
+    background-color: #00000000;
+} */
+
+/* Start System Requirements */
+
+.system {
+    width: 100%;
+    height: 960px;
+    background:
+    radial-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 1)),
+    url(assets/assets/requirements.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.system h3 {
+    color: #ffffff;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 16px;
+}
+
+.h1-system {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
