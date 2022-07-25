@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background: rgba(156, 131, 95, 1);
+}
+
+.header {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.backnav {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #724C21;
+}
+
+.head-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 27px;
+    object-fit: contain;
+}
+
+.judul-logo {
+    margin-left: 27px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #F9B23D;
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.user {
+    margin-right: 50px;
+}
+
+.name {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-option {
+    align-self: center;
+    height: 210px;
+    width: 230px;
+    cursor: pointer;
+}
+
+.user-option:hover {
+    transform: rotate(20deg);
+    animation-name: buttonAnimate;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}@keyframes buttonAnimate {
+    0% {transform: rotate(20deg);}25% {transform: rotate(10deg);}50% {transform: rotate(0deg);}65% {transform: rotate(-10deg);}85% {transform: rotate(-20deg);}100% {transform: rotate(10deg);}
+}
+
+.vs-refresh {
+    margin: auto 50px;
+    width: 300px;
+}
+
+.versus {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vs{
+    /* font-family: 'Open Sans'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 196px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #BD0000;
+}
+
+.refresh {
+    transform: translateY(320%);
+}
+
+.com {
+    margin-left: 50px;
+}
+
+.com-option {
+    align-self: center;
+    height: 210px;
+    width: 230px;
+}
+
+
+/* js inject */
+
+.chosen {
+    background-color: #c4c4c4;
+    border-radius: 30px;
+    width: 223px;
+    height: 204px;
+}
+
+.winlosebox {
+    background-color: #4C9654;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    width: 271.11px;
+    height: 166.93px;
+}
+
+.drawbox {
+    background-color:rgba(3, 91, 12, 1);
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    width: 271.11px;
+    height: 166.93px;
+}
+
+.boxtext {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
